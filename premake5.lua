@@ -19,9 +19,6 @@ project "GameEngineSeries"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
-	pchheader "hzpch.h"
-	pchsource "GameEngineSeries/src/hzpch.cpp"
-
 	files
 	{
 		"%{prj.name}/src/**.h",
